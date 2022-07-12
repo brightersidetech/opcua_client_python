@@ -14,8 +14,15 @@ if __name__ == '__main__':
 
     # get node data from your server
     while True:
+        # get nodes and node data from the server
         tempNode = client.get_node("ns=3;i=1001")
         temperature = tempNode.get_value()
         print("Temperature: ", temperature)
 
+        numNode = client.get_node("ns=3;i=1008")
+        num = numNode.get_value()
+        print("Number: ", num)
+
+        # Set a node values
+        client.set_values([numNode], [num+1])
         time.sleep(2)
