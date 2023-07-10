@@ -4,7 +4,7 @@ A simple python OPC UA client. The client can be used to get data from an OPC UA
 # OPC UA Server
 You can use the endpoint of your OPC UA server if you have one running already. A PROSYS Simulation server has been used in this implementation.
 If you don't have a server running already, you can use a Server Simulation to test your client.
-You can find the tutorial on how to install, configure and use a [PROSYS simulation server here](https://www.youtube.com/watch?v=jPnOJ3Z2c0I&t=90s)
+You can find the tutorial on how to install, configure and use a [PROSYS simulation server here](https://www.youtube.com/watch?v=ywS966fEsuo)
 
 # Install Dependencies
 ```
